@@ -1,0 +1,39 @@
+_id: req_d358b05c35294f18ba75f66a763f7cae
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652499116772
+created: 1652499116772
+url: "{{merchant-integration-url}}/key-code"
+name: MIG - vaults-create
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: >-
+    {
+        "name": "Keystest10001",
+        "merchant_code": "SEVEN11",
+        "public_key": "-----BEGIN PUBLIC KEY-----\nMIIBCgKCAQEAuQ+fCH3vSdcPzwx2cXgjg4A7fzWZbgNJEMw37OpyCUWL3kWo6SdR\nC8cB+uKQcXEwCpFJtlEZE7cUlNmlAnnU1IU2jHScxg159I0o0jCaz/kaYWkFphMx\nNy5rDv1c3BBo4C6lUYOLrI3d8VVZZjuTTeu+n/cgSoaC8TpeKpgP3DC67Uj8iPV5\nPb+O6BoqVtl/oPZbKVJAA++lnyntBH2ifWB0vl+JVOoa7J+J0v8qrwKkAXEKoy0e\no7O8i+5dwF7IDyWAi0sMJp8+sPs5CbfYjzOAxPopEz/Glt28UMEQshFkJzSRMK3M\n5AKAU4nVIggwZt6DjgmfLs7Rg7d61UlHVwIDAQAB\n-----END PUBLIC KEY-----\n",
+        "expired_at": 1596689100
+    }
+parameters: []
+headers:
+  - name: X-Key-Code
+    value: 105617b3-8829-406c-8f4d-3b267c38ef21
+  - name: X-Nonce
+    value: "{{nonce}}"
+  - name: X-Timestamp
+    value: "{{timestamp}}"
+  - name: X-Signature
+    value: "{{mig-signature}}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499116772
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

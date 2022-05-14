@@ -1,0 +1,41 @@
+_id: req_5a463a7ad39d40efa582eed2fe4e442b
+type: Request
+parentId: fld_427ae15fd4a44848bdeea26124e0fe19
+modified: 1652499116781
+created: 1652499116781
+url: https://api-payment-uat.int.vinid.dev/internal/transaction-history/v1/transaction-filters
+name: PAY - txn filter uat
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "filter": {
+            "merchant_identity_code": {
+                "eq": "JUPVIEC"
+            },
+            "transaction_ref": {
+                "eq": "103151137"
+            }
+        }
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: Basic aW50ZXJuYWxkZXY6SW50ZXJuYWxkZXYhMTIz
+  - name: X-API-Key
+    value: 123456aA@
+  - name: Content-Type
+    value: application/json
+  - name: Cookie
+    value: __cfduid=db72e71577dc39fa97ea7584ecd19fb161586421158
+authentication: {}
+metaSortKey: -1652499116781
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,89 @@
+_id: req_c31852c05aa94e59a4d402950a3e2f55
+type: Request
+parentId: fld_11a8ad272b6843c3a41e6a5d3c351182
+modified: 1652499346176
+created: 1652499346176
+url: "{{customer-url}}/customers/39175013940629504"
+name: customers
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    {
+            "id": 39175013940629504,
+            "code": "CYD0000000008",
+            "version": 1,
+            "created_by": "Nguyễn Ánh",
+            "created_name": "anhtong",
+            "created_date": "2021-08-06T06:58:54Z",
+            "updated_by": "Nguyễn Ánh",
+            "updated_name": "anhtong",
+            "updated_date": "2021-08-06T06:58:54Z",
+            "full_name": "Nguyễn Văn A",
+            "phone": "0123456789",
+            "email": "test@gmail.com",
+            "customer_group_id": 1,
+            "customer_group": "Sinh Viên",
+            "customer_type_id": null,
+            "customer_type": "",
+            "company_id": 1,
+            "company": "",
+            "website": "",
+            "description": "",
+            "customer_level_id": null,
+            "customer_level": "",
+            "status": "active",
+            "wedding_date": null,
+            "birthday": "2021-08-02",
+            "gender": "male",
+            "responsible_staff_code": "",
+            "tags": null,
+            "notes": [],
+            "billing_addresses": [],
+            "shipping_addresses": [
+                {
+                    "id": 18,
+                    "code": "W9HizQcIhNRv",
+                    "version": 1,
+                    "created_by": "Nguyễn Ánh",
+                    "created_name": "anhtong",
+                    "created_date": "2021-08-06T06:58:54Z",
+                    "updated_by": "Nguyễn Ánh",
+                    "updated_name": "anhtong",
+                    "updated_date": "2021-08-06T06:58:54Z",
+                    "name": "Nguyễn Văn C",
+                    "email": "ga@gmail.com",
+                    "phone": "0232138923",
+                    "country_id": 233,
+                    "country": "VIET NAM",
+                    "city_id": 1,
+                    "city": " Thành phố Hà Nội ",
+                    "district_id": 1,
+                    "district": "Quận Ba Đình",
+                    "ward_id": 1,
+                    "ward": "Phường Phúc Xá",
+                    "zip_code": "1235",
+                    "full_address": "Abc",
+                    "default": true
+                }
+            ],
+            "shopping_histories": [],
+            "contacts": []
+        }
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJNUndFdDVURzNfb2g3M01VRVlsVC01R1VHT0tBNWtLMThjSnlzU2FUTnZjIn0.eyJleHAiOjE2MjkwODE1ODQsImlhdCI6MTYyODIxNzU4NCwianRpIjoiMzczZjA3Y2ItMGFmMC00YzM5LWJjNGEtZjU1MzJlMDRlN2QzIiwiaXNzIjoiaHR0cHM6Ly9kZXYuaWFtLnlvZHkuaW8vYXV0aC9yZWFsbXMvWW9keSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI1Y2ViNWI0NS0xZWEwLTQxN2MtYjZlMS1jOGI4NDZkNGJlNmQiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJ5b2R5LW8ybyIsInNlc3Npb25fc3RhdGUiOiIzMWU2OGU4NC04MTBmLTRiMDMtYjk5ZC0yYTgwZTUwNDQ1YmMiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJuYW1lIjoiTmd1eeG7hW4gw4FuaCIsInByZWZlcnJlZF91c2VybmFtZSI6ImFuaHRvbmciLCJnaXZlbl9uYW1lIjoiTmd1eeG7hW4gw4FuaCJ9.GFomeiPaeSdPIaz3HnCSch3Tv1vXcF9jIxbjXKi8i2EG7WpsRP0t4L0ZZNdZ4au7CPKrfm85jybHMdYxdiW3Q00bl6KNg2l51vJTM00eK9WVfBHyTvICrmP_xjH97zzFNu07i4k5FwS8M4XYj96-ecz2M3laNN8fv03KlKiia8Qn50bUySjLc7uwKm01aJPWN3granpTDcpCCovylEY6tmqmlr53VbOzdutoJY1hVZUU7HXx3eDcwB0_WY0DXzh9yGZSHSrZ5qx2eWjOYLfsBvmmJnlTqwZ-lyscnSWMHHrnepiN19Mb5LL-5vm5scILGMiQ7bYT3VrCVWFa_RalZg
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499346176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

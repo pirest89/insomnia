@@ -1,0 +1,60 @@
+_id: req_6088b165d30742ec945e7ae6a8a1c27b
+type: Request
+parentId: fld_11a8ad272b6843c3a41e6a5d3c351182
+modified: 1652499346178
+created: 1652499346178
+url: "{{core-url}}/suppliers"
+name: auth-service-get-profile
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "status": "active",
+        "type": "personal",
+        "name": "cocacola",
+        "goods": [
+            "foot_wear"
+        ],
+        "person_in_charge": "TB11",
+        "country_id": 233,
+        "contact_name": "Vũ",
+        "district_id": 288,
+        "city_id": 30,
+        "phone": "0934434226",
+        "address": "Số 25a/15/160 đường Vũ Hựu",
+        "email": "vumanhthang89@gmail.com",
+        "website": null,
+        "tax_code": "",
+        "scorecard": null,
+        "debt_time": null,
+        "debt_time_unit": null,
+        "certifications": [],
+        "moq": null,
+        "note": "",
+        "bank_name": "",
+        "bank_brand": "",
+        "bank_number": "",
+        "beneficiary_name": ""
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJNUndFdDVURzNfb2g3M01VRVlsVC01R1VHT0tBNWtLMThjSnlzU2FUTnZjIn0.eyJleHAiOjE2MjQ4NzMxMzMsImlhdCI6MTYyNDAwOTEzMywianRpIjoiZDA4M2NjMGYtZDc2OS00ODA2LTk1NzAtOGY1YWRmZTE0OTVmIiwiaXNzIjoiaHR0cHM6Ly91YXQuaWFtLnlvZHkuaW8vYXV0aC9yZWFsbXMvWW9keSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiI1Y2ViNWI0NS0xZWEwLTQxN2MtYjZlMS1jOGI4NDZkNGJlNmQiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJ5b2R5LW8ybyIsInNlc3Npb25fc3RhdGUiOiIwMzM0N2EyNy1mMGJlLTQ3NmYtYTE3ZS0yMDQyZDhlZGQxN2UiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJuYW1lIjoiTmd1eeG7hW4gw4FuaCIsInByZWZlcnJlZF91c2VybmFtZSI6ImFuaHRvbmciLCJnaXZlbl9uYW1lIjoiTmd1eeG7hW4gw4FuaCJ9.EEJh8dz5WugLvOAfebDNN25P7V_tnLYY1SLfLFU7n1wiDYgCCAGkK8Ztw18v2XsGWuG0bgt-4IRYyhHfxAz2Hx9N18fwrG23dav9KJT_g7BrGYTJ-BoQ97FdjYPrrBYRb5HEAKD8eWJj9_6v1Z1-Lii4FkoA6FziXv8O1aqvUcnRMoB4lhzJSulbCepR7YFhBN0Jv5d3-bKH9L1ipKRrT6iqHCSYZgH59S0oHvyIxhf1hjQeU2zOqg_1gCB1B9ua10jo07w1gg-R7N9ba3UKyPX-5XFkbld3oZr2nJXk9XDRuHpxBQdrKLNTzZ-J1q40QTlvUBI-jwTwJfMypZuilQ
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  disabled: false
+  token: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJNUndFdDVURzNfb2g3M01VRVlsVC01R1VHT0tBNWtLMThjSnlzU2FUTnZjIn0.eyJleHAiOjE2MjY1MDY3MzMsImlhdCI6MTYyNTY0MjczMywianRpIjoiZTY3YzdhZWYtODVkNC00MjYwLTllYWQtZjgxZWZiZDg4OTk1IiwiaXNzIjoiaHR0cHM6Ly9kZXYuaWFtLnlvZHkuaW8vYXV0aC9yZWFsbXMvWW9keSIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJhNmFmZTJlZi00MzQzLTQwYzYtOGQ3OS0wODQ5Y2NjZjUwZjAiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJ5b2R5LW8ybyIsInNlc3Npb25fc3RhdGUiOiI4OTBhYjM3My1kMjk4LTQ3YTYtYjNiNi04NDM1YzA5MzdlOTMiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbIi8qIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJuYW1lIjoidnUgbWFuaCB0aGFuZyIsInByZWZlcnJlZF91c2VybmFtZSI6InBpcmVzdDg5IiwiZ2l2ZW5fbmFtZSI6InZ1IG1hbmggdGhhbmcifQ.FndKAbwklgooyaJcPODp568R59oHfoXWhqdwLWN-0eieadpFRPqSjF8vMAZjPIKQNPC0upwc-ex7Uap7rSLxgA6xhzMrJ3dQICvaKvbSsJdgRDcuW_WC8Y_fLzjP1UNHYs960jQ-k5sgWPXl9WSikRnUfoFudEG43YcVxiNaNPv68Vx6q5Z9Cslnc39o9sC9ht-H4ImCIlfmuWvyfurY6g7zqLlU_CtmG0X-R6g2WPFfTgjpOy6LGKytJNGk5lN_pd8xTZW21Vlup4r0efrPFIViPb5pZluhUO43uxkXEie37wPykH3eVsA4UWT34sNYTPRJOuUHNJb3aD0Vh3ImlQ
+  prefix: ""
+metaSortKey: -1652499346178
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

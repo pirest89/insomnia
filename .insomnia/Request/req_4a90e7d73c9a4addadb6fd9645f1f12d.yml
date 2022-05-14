@@ -1,0 +1,39 @@
+_id: req_4a90e7d73c9a4addadb6fd9645f1f12d
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652499116773
+created: 1652499116773
+url: "{{qr-service-internal-url}}/checkout/callback"
+name: QR - Check out callback
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: >-
+    {
+    	"order_id": "{{mig-order-id}}",
+    	"transaction_ref": "123456T123",
+    	"amounts": [
+    		{"currency": "VND", "amount": 58000}
+    	],
+    	"timestamps": 1580978300,
+    	"signature": "EqrOm9V4oRNNW62E085GFaXMn+NSVj/LINlNKC4UrXtuEHbF1yf/Bcedo+R8EE1si2EeLpuoOzoH1wm934TeVm403YqPJ5Gqo7gDHU1n3tWKOXWrj7oWrMCYs2/dD7IfhMLwl2xl0rgUxGWhgWbG54OV18JSzTXLsKyTYpfbOi5jauarqiRAlzwcGQODUT8T3fZXbzZK+ApsguXgHtXURBfSuFddirlXUCCkZuzLBEgKuq/bpiYkrpNH55MPXL1p70lOhtNY6K94MsWpfBY6gw3FzAcRWBMlwTIgaejygDuSrPvfoybcbdBgCxbIKA3lDKwCqzGa8xs532gWIL+YaQ==",
+    	"is_hold_order": false,
+    	"total_discount": 2001,
+    	"order_info": "[\r\n            {\r\n                \"order_has_promotion\": true,\r\n                \"order_category\": \"TICKET\",\r\n                \"order_booking_type\": \"ONLINE\",\r\n                \"order_type\": \"Standard\",\r\n                \"order_sub_type\": \"2D\",\r\n                \"order_code\": \"B11\",\r\n                \"order_name\": \"B11\",\r\n                \"order_number\": 1,\r\n                \"order_price\": \"100000\",\r\n                \"order_create_at\": 1581333173,\r\n                \"order_start\": 1580498400,\r\n                \"order_end\": 1580505240,\r\n                \"order_location\": \"00301701\"\r\n            },\r\n            {\r\n                \"order_has_promotion\": true,\r\n                \"order_category\": \"TICKET\",\r\n                \"order_booking_type\": \"ONLINE\",\r\n                \"order_type\": \"Standard\",\r\n                \"order_sub_type\": \"2D\",\r\n                \"order_code\": \"B12\",\r\n                \"order_name\": \"B12\",\r\n                \"order_number\": 1,\r\n                \"order_price\": \"120000\",\r\n                \"order_create_at\": 1581333173,\r\n                \"order_start\": 1580498400,\r\n                \"order_end\": 1580505240,\r\n                \"order_location\": \"00301601\"\r\n            }\r\n          ,\r\n            {\r\n                \"order_has_promotion\": true,\r\n                \"order_category\": \"TICKET\",\r\n                \"order_booking_type\": \"ONLINE\",\r\n                \"order_type\": \"Standard\",\r\n                \"order_sub_type\": \"2D\",\r\n                \"order_code\": \"B12\",\r\n                \"order_name\": \"B12\",\r\n                \"order_number\": 1,\r\n                \"order_price\": \"150000\",\r\n                \"order_create_at\": 1581333173,\r\n                \"order_start\": 1580498400,\r\n                \"order_end\": 1580505240,\r\n                \"order_location\": \"00301601\"\r\n            }\r\n            ]"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: "{{merchant-token}}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499116773
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

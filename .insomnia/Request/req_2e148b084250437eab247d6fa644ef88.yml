@@ -1,0 +1,35 @@
+_id: req_2e148b084250437eab247d6fa644ef88
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652499116775
+created: 1652499116775
+url: "{{merchant-integration-url}}/qr/create-transaction-order"
+name: MIG - Create txn order
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: '{"callback_url":"http://5e3b963bf2cb3000143912e6.mockapi.io/merchant-client/callback","description":"gen-txn-qr","extra_data":{"partner_code":
+    "iPos", "order_info": "{\"id\":
+    123}"},"order_amount":1000,"order_currency":"VND","order_reference_id":"ORDER_REF_123","pos_code":"{{pos-code}}","service_type":"PURCHASE","store_code":"{{store-code}}"}'
+parameters: []
+headers:
+  - name: X-Key-Code
+    value: "{{mig-key-code}}"
+  - name: X-Nonce
+    value: "{{nonce}}"
+  - name: X-Timestamp
+    value: "{{timestamp}}"
+  - name: X-Signature
+    value: "{{mig-signature}}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499116775
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

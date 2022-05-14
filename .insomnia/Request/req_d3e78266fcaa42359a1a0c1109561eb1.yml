@@ -1,0 +1,24 @@
+_id: req_d3e78266fcaa42359a1a0c1109561eb1
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652499116764
+created: 1652499116764
+url: "{{merchant-integration-internal-url}}/internal/search?merchant_code=OHUBK\
+  HAC&store_code=OHUBKHAC01&pos_code=OHUBKHAC0101"
+name: MIG-INT - Internal Search
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: Basic aW50ZXJuYWxkZXY6ODlyWHNqeFN0eWVHZFI1cA==
+authentication: {}
+metaSortKey: -1652499116764
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

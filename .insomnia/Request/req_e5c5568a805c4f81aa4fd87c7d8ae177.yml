@@ -1,0 +1,23 @@
+_id: req_e5c5568a805c4f81aa4fd87c7d8ae177
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652499116773
+created: 1652499116773
+url: "{{qr-service-url}}/merchant/QR-qrcodeuat01-qrcodeu-pos01qrcodeuat01"
+name: QR - Get merchant qr code
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: "{{merchant-token}}"
+authentication: {}
+metaSortKey: -1652499116773
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

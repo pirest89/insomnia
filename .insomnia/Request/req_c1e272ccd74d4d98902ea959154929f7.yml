@@ -1,0 +1,45 @@
+_id: req_c1e272ccd74d4d98902ea959154929f7
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652499116769
+created: 1652499116769
+url: "{{merchant-integration-url}}/loyalty/redeem-points"
+name: MIG - Redeem points
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "tokenization": "81b192d90fac4077bc74107aaa4f37cf",
+      "txn_id": "{{store-code}}1232",
+      "order_id": "OD003",
+      "transaction_time": {{timestamp}},
+      "remark": "string",
+      "redeem_point": 1,
+      "store_code" : "{{store-code}}",
+      "pos_code" : "{{pos-code}}"
+    }
+parameters: []
+headers:
+  - name: X-Key-Code
+    value: "{{mig-key-code}}"
+  - name: X-Nonce
+    value: "{{nonce}}"
+  - name: X-Timestamp
+    value: "{{timestamp}}"
+  - name: X-Signature
+    value: "{{mig-signature}}"
+  - name: Content-Type
+    value: application/json
+  - name: X-Request-ID
+    value: "{{x-request-id}}"
+authentication: {}
+metaSortKey: -1652499116769
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

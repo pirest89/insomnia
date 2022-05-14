@@ -1,0 +1,41 @@
+_id: req_42be0c6c28164aff9411153309f71d80
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652499116771
+created: 1652499116771
+url: "{{merchant-integration-url}}/refund"
+name: MIG - Refund
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {"merchant_transaction_id": "TEST_DEMO_SITE",
+        "transaction_id": "20200529T001P9A1E7X2",
+        "user_id": "",
+        "user_name": "",
+        "amount": 1000,
+        "currency": "VND",
+        "description": null
+    }
+parameters: []
+headers:
+  - name: X-Key-Code
+    value: "{{mig-key-code}}"
+  - name: X-Nonce
+    value: "{{nonce}}"
+  - name: X-Timestamp
+    value: "{{timestamp}}"
+  - name: X-Signature
+    value: "{{mig-signature}}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499116771
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

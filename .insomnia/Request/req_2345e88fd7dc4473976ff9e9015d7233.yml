@@ -1,0 +1,47 @@
+_id: req_2345e88fd7dc4473976ff9e9015d7233
+type: Request
+parentId: fld_59172b9714224f0eaa35770f1738378c
+modified: 1652499116784
+created: 1652499116784
+url: "{{loy-url}}/v1/gift-cards"
+name: LOY - Get gift code
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "merchant_code": "UBOXSS",
+        "merchant_id": "UBOX",
+        "terminal_id": "21323",
+        "order_info": [
+            {
+                "quantity": 1,
+                "card_type": "20000"
+            },
+            {
+                "quantity": 1,
+                "card_type": "100000"
+            },
+            {
+                "quantity": 1,
+                "card_type": "500000"
+            }
+        ],
+        "order_id": "UBOX-011111"
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: Basic bG95YWx0eV9naWZ0Y29kZS5pbnRlcm5hbDowY0dRc2FwWTVQbjdMMmtn
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499116784
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

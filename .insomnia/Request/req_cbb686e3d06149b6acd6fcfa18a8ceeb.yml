@@ -1,0 +1,44 @@
+_id: req_cbb686e3d06149b6acd6fcfa18a8ceeb
+type: Request
+parentId: fld_427ae15fd4a44848bdeea26124e0fe19
+modified: 1652499116782
+created: 1652499116782
+url: https://api-internal-qc.vinid.net/internal/transaction-history/v1/transaction-filters
+name: PAY - transaction-filter
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "filter": {
+            "transaction_status": {
+                "eq": "SUCCESS"
+            },
+            "activity_type": {
+                "eq": "PAYMENT"
+            }
+        },
+        "sort": {
+            "transaction_create_time": "desc"
+        },
+        "pageable": {
+            "limit": 10,
+            "offset": 0
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: X-Api-Key
+    value: 123456aA@
+authentication: {}
+metaSortKey: -1652499116782
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_ed46bd2be6424ee19f247ca1b3059797
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652499299019
+created: 1652499116774
+url: "{{qr-service-url}}/transaction/{{mig-order-id}}"
+name: QR - Get order
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: "{{merchant-token}}"
+    id: pair_e34acc4b2ee24ce88ead15dba797d3bb
+  - name: X-Signature
+    value: "{{qr-service-signature}}"
+    id: pair_cc23f15880174fc4b6321f76eb875b69
+authentication: {}
+metaSortKey: -1652499116774
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_f67800630f1a44e1a1eed3b9febc9f23
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652499116775
+created: 1652499116775
+url: "{{merchant-integration-url}}/qr/query/{{mig-order-id}}"
+name: MIG - Query status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: X-Key-Code
+    value: "{{mig-key-code}}"
+  - name: X-Nonce
+    value: "{{nonce}}"
+  - name: X-Timestamp
+    value: "{{timestamp}}"
+  - name: X-Signature
+    value: "{{mig-signature}}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499116775
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

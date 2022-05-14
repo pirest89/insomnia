@@ -1,0 +1,33 @@
+_id: req_23ddcbee00204f888e7eb499bd2f3453
+type: Request
+parentId: fld_beab0a577acb4199bbdf08566af48b13
+modified: 1652499116777
+created: 1652499116777
+url: https://staging-apimanager.vsmart.net/vsm/msnb/orders/od-123?action=cancel
+name: CancelOrder
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: |-
+    {
+        "OrerItems": [
+            "1"
+        ]
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJRCI6ImMxMWYzOGUwLWFlNjktNDJhZS1hYWE3LTA1ODY1ZTliMTZjYiIsIlBob25lTnVtYmVyIjoiIiwiVXNlcklEIjoiIiwiRXhwIjoxNTk1NTAyMzA2fQ.lJwwhrPX9BJdL7mMwwpifInTriuyEifIFCpoDWEQ8cvWuz-BfVCmnSKZTXEOrPh_609V6z8NSEPUGuFCLcJdUw
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499116777
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,46 @@
+_id: req_edc75adeb3bb4c6e91aee438f2033b47
+type: Request
+parentId: fld_11a8ad272b6843c3a41e6a5d3c351182
+modified: 1652499346185
+created: 1652499346185
+url: https://dev.iam.yody.vn/auth/realms/Yody/protocol/openid-connect/token
+name: auth-generate-token
+description: ""
+method: POST
+body:
+  params:
+    - value: thangvm6
+      name: client_id
+      disabled: false
+    - value: thangvm6
+      name: username
+      disabled: false
+    - value: thang89**
+      name: password
+      disabled: false
+    - value: password
+      name: grant_type
+      disabled: false
+    - value: cd147ff2-a6fd-438f-bc8b-1389cccd2b15
+      name: client_secret
+      disabled: false
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers:
+  - name: client_id
+    value: account
+  - name: username
+    value: thangvm6
+  - name: password
+    value: thang89**
+  - name: grant_type
+    value: password
+authentication: {}
+metaSortKey: -1652499346185
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

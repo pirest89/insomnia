@@ -1,0 +1,44 @@
+_id: req_97d5a4d0a2214107bfaeb1830a492405
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652499116766
+created: 1652499116766
+url: "{{merchant-integration-url-2}}/refund"
+name: MIG - Refund V2
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "vnd_amount": 100000,
+      "point_amount": 10,
+      "description": "Hoan tien",
+      "merchant_transaction_id": "mc-123",
+      "merchant_user_id": "12345678",
+      "merchant_user_name": "thangvm6",
+      "transaction_id": "1593487800000"
+    }
+parameters: []
+headers:
+  - name: X-Key-Code
+    value: "{{mig-key-code}}"
+  - name: X-Nonce
+    value: "{{nonce}}"
+  - name: X-Timestamp
+    value: "{{timestamp}}"
+  - name: X-Signature
+    value: "{{mig-signature}}"
+  - name: Content-Type
+    value: application/json
+  - name: X-Request-ID
+    value: "{{x-request-id}}"
+authentication: {}
+metaSortKey: -1652499116766
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

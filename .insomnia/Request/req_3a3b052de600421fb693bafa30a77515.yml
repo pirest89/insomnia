@@ -1,0 +1,39 @@
+_id: req_3a3b052de600421fb693bafa30a77515
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652499116775
+created: 1652499116775
+url: "{{merchant-integration-url}}/key-code"
+name: MIG - vaults-create-KiotVietTest
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: >-
+    {
+        "name": "KiotVietKeyTest",
+        "merchant_code": "PROMDEV",
+        "public_key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjGv1OmQLevZhMjXnyMIb\n0VgsPe3mvqzSqPl3pBw9CJzcfToLe9p+4T2e0uW+qvBeBhO7HexyxUo9UWL8kEp1\nXMQcm5nWtBfIHyJX8SURXM/ZaZmeynG208oXxEYU8JKwgoEsiRz/GOxsfwrBGKM8\nkYyKLd8sly4rsLmHYRIl54CHwjkunXvOaP4CM42GNKgsWFSdUCe3JRDJlKofE0pI\n/zq0O11pAwt9fWI7J0pzNgDJF6sAIrfPrSJ+vSJoX6F1j64XwSGgI4YbhHurzHGG\njA9biNoptUzPPCVTmJ6xEcpv9lAAHOMVMgG9tgpvdDr7AuNmmGb8QSCe6YwxsO02\nWQIDAQAB\n-----END PUBLIC KEY-----\n",
+        "expired_at": 1589904619
+    }
+parameters: []
+headers:
+  - name: X-Key-Code
+    value: f63809ff-46da-4d16-a2ce-c6e3bf33089e
+  - name: X-Nonce
+    value: "{{nonce}}"
+  - name: X-Timestamp
+    value: "{{timestamp}}"
+  - name: X-Signature
+    value: "{{mig-signature}}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499116775
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_31c21b0d9d284ef7910bde880acb4f9b
+type: Request
+parentId: fld_59172b9714224f0eaa35770f1738378c
+modified: 1652499116784
+created: 1652499116784
+url: "{{loy-url}}/v1/gift-cards/status"
+name: LOY - Check gift status
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "merchant_code": "UBOX",
+        "merchant_id": "UBOX",
+        "terminal_id": "1234",
+        "serial": ""
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: Basic bG95YWx0eV9naWZ0Y29kZS5pbnRlcm5hbDowY0dRc2FwWTVQbjdMMmtn
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499116784
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

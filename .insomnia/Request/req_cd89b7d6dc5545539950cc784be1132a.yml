@@ -1,0 +1,37 @@
+_id: req_cd89b7d6dc5545539950cc784be1132a
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652499116767
+created: 1652499116767
+url: "{{merchant-integration-url}}/loyalty/sale-point"
+name: MIG - Sale Point
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: '{"tokenization":"04a169c2c5544da5819977a4a060f466","order_id":"1002467313","txn_id":"{{store-code}}0449014","original_txn_id":"{{store-code}}49008","transaction_time":1591239531,"remark":"Hoàn
+    điểm tiêu cho đơn hàng
+    1002467313","transaction_amount":0,"refund_amount":0,"refund_redeem_point":10,"store_code":"{{store-code}}","pos_code":"{{pos-code}}"}'
+parameters: []
+headers:
+  - name: X-Key-Code
+    value: "{{mig-key-code}}"
+  - name: X-Nonce
+    value: "{{nonce}}"
+  - name: X-Timestamp
+    value: "{{timestamp}}"
+  - name: X-Signature
+    value: "{{mig-signature}}"
+  - name: Content-Type
+    value: application/json
+  - name: X-Request-ID
+    value: "{{x-request-id}}"
+authentication: {}
+metaSortKey: -1652499116767
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

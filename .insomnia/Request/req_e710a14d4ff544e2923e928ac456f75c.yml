@@ -1,0 +1,37 @@
+_id: req_e710a14d4ff544e2923e928ac456f75c
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652499116771
+created: 1652499116771
+url: "{{merchant-integration-url}}/key-code/list"
+name: MIG - vaults-delete
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    {
+        "merchant_code": "SEVEN11",
+        "key_code": "ff9175dd-012d-8fe3-ad9f-30fa183a788c"
+    }
+parameters: []
+headers:
+  - name: X-Key-Code
+    value: 105617b3-8829-406c-8f4d-3b267c38ef21
+  - name: X-Nonce
+    value: "{{nonce}}"
+  - name: X-Timestamp
+    value: "{{timestamp}}"
+  - name: X-Signature
+    value: "{{mig-signature}}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499116771
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

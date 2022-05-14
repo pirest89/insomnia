@@ -1,0 +1,28 @@
+_id: req_d07ee939a77d405d9a9629207587684f
+type: Request
+parentId: fld_beab0a577acb4199bbdf08566af48b13
+modified: 1652499116777
+created: 1652499116777
+url: http://10.100.129.31:8083/vsm/msnb/payments
+name: make payment
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: '{"MessageType":"","TransferCode":"","OrderId":"MPB4Y2P","PaymentStatus":"","SentDate":"20200716","PaidDate":"20200716","PaidAmount":68800,"PaidAmountNegative":-68800,"PaymentMethod":"","TransactionId":"","Pernr":"","Currency":"VND","DocNumber":"","BusAct":"RFBU","CompCode":"2303","Customer":"VG207626","GlAccount_01_GL":"1311180000","GlAccount_02_Customer":"1311180000","BusinessPlace":"B000","ProfitCtr":"1098","CurrType":"00","DocType":"ZC"}'
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJRCI6IjliY2NlMzgyLTY2YjQtNDExYy1iOWFkLWEyNTRlZDEzNzg0YSIsIlBob25lTnVtYmVyIjoiIiwiVXNlcklEIjoiIiwiRXhwIjoxNTk1NTY0NDA3fQ.JDk5IIcl1qSTlJmp4bwjiOJ31-Mb6Ct927CfB3_ZYNBN6D-r9yjQfOaecimP3GYULBtBobD82QxdgSI-klxS3w
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499116777
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

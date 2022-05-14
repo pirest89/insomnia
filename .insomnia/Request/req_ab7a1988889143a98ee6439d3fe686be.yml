@@ -1,0 +1,31 @@
+_id: req_ab7a1988889143a98ee6439d3fe686be
+type: Request
+parentId: fld_1f2d3aaed09747938ed6c3e0518111c4
+modified: 1652499116779
+created: 1652499116779
+url: "{{int-config-url}}/site/vaults"
+name: INT-CONFIG Create vault site
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: >-
+    {
+        "name": "Test04",
+        "public_key": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQkNnS0NBUUVBcC9tL1NTdHliZDAzdTdJOUJuOTE5TE9mQ0NCTGJ6UlpiN3VWeE1yQ3lSME5mTGZNYTRyQgpPeENHRkh2T201Z1c3bjRkcWpJU3lKcmpkYVdHalYrNHhaOXBDdUduZ0VGVUNzZTg3cEswSTE3MEhRWGlSNFNiCmxEYmh4czU3czRpUk5HaktoYXJoWDQrUkxJWnBCNE4zMmxQZ0tLQ0EzcFQ0MkV4MC9HNjZaZUhzdG1EMGtHRVEKdEN2ZVRYMkJ1ZjgrNk5nbE5sVEEyRnlzeXlWaUFaajRKRDgyV1NoaTNlU1ZDbkttWm1hNzNlcVVFdHpSYXBwdgpsWTdSRHVGeEZkV2hVTXBNdVJMR3ZnQjdtc3ZwdG5JL0NLTmFCaUgwK1UrK3JuMityN21hanN6dGYzOTg5N3A2CmM5VTZhK2xwVms1T3FrSlF3Y0VGWUlxMEMybjQyMjg1aHdJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: "{{mc-site-token}}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499116779
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,16 @@
+_id: env_08b9114d765d4f4d824ffacc42f2eb38
+type: Environment
+parentId: env_213215d1f4047b36dca276184b41b10471e0792b
+modified: 1652499887905
+created: 1652499210415
+name: yody-dev
+data:
+  iam-host: https://dev.iam.yody.io
+  api-host: https://dev.api.yody.io
+dataPropertyOrder:
+  "&":
+    - iam-host
+    - api-host
+color: "#7d69cb"
+isPrivate: false
+metaSortKey: 1652499210415

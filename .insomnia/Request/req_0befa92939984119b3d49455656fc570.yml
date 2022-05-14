@@ -1,0 +1,43 @@
+_id: req_0befa92939984119b3d49455656fc570
+type: Request
+parentId: fld_427ae15fd4a44848bdeea26124e0fe19
+modified: 1652499116782
+created: 1652499116782
+url: https://api-qc.vinid.net/ops-pay-merchant-internal/internal/ops/pay/merchant/refund-merchant/create
+name: PAY - Refund
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "payment_core_transaction_id": "10003145989",
+        "description": "test décription",
+        "sender_id": "123",
+        "sender_name": "test_name",
+        "source_type": "INTERGRATION",
+        "refund_whole": true,
+        "request_transaction_id": "1234567822222",
+        "amount": 1000,
+        "currency": "VND",
+        "partner_transaction_code": "test 1"
+    }
+parameters: []
+headers:
+  - name: X-API-Key
+    value: ops-pay-merchant-api-key
+  - name: X-API-Secret
+    value: ops-pay-merchant-api-secret
+  - name: Content-Type
+    value: application/json
+  - name: Cookie
+    value: ""
+authentication: {}
+metaSortKey: -1652499116782
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

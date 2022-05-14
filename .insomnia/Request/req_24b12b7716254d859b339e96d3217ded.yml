@@ -1,0 +1,24 @@
+_id: req_24b12b7716254d859b339e96d3217ded
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652499116770
+created: 1652499116770
+url: "{{qr-service-internal-url}}/integration/query?merchant_code=VNPAY&order_i\
+  d={{mig-order-id}}"
+name: MIG-INT - Search
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    value: Basic aW50ZXJuYWxkZXY6ODlyWHNqeFN0eWVHZFI1cA==
+authentication: {}
+metaSortKey: -1652499116770
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

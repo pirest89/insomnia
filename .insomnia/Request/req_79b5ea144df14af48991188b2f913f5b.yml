@@ -1,0 +1,37 @@
+_id: req_79b5ea144df14af48991188b2f913f5b
+type: Request
+parentId: fld_59172b9714224f0eaa35770f1738378c
+modified: 1652499116783
+created: 1652499116783
+url: "{{loy-point-url}}/transactions/earn"
+name: LOY - Earn Point
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "tokenization": "string",
+        "invoice_no": "string",
+        "order_ref": "string",
+        "transaction_time": 123,
+        "remark": "string",
+        "transaction_amount": 465
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: Basic bG95YWx0eV9pbnRlZ3JhdGlvbl9odWI6MGNHUXNhcFk1UG43TDJrZw==
+  - name: X-Request-ID
+    value: "{{x-request-id}}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499116783
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

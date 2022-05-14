@@ -1,0 +1,28 @@
+_id: req_cdd2b20b6053417d8a47ce39de2059c1
+type: Request
+parentId: fld_beab0a577acb4199bbdf08566af48b13
+modified: 1652499116778
+created: 1652499116778
+url: http://10.100.129.31:8083/vsm/msnb/orders/MP46E8P?action=cancel
+name: CreateSaleOrder
+description: ""
+method: PATCH
+body:
+  mimeType: ""
+  text: '{"OrderItems":["010509"]}'
+parameters: []
+headers:
+  - name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJRCI6ImFiOGVhZjhlLTg1NDktNGY3My1iNjhjLWQ0ZmEzYzFjYWM3ZCIsIlBob25lTnVtYmVyIjoiIiwiVXNlcklEIjoiIiwiRXhwIjoxNTk2MDE4ODc1fQ.rVgJBBzkQaECqAPTZiMvRq-8bVKBAQOdxhlYgh0O4Ned0fSmpqWCA9U4bIAtIeN5-7_DbM0BrMtxh3pB-hIHmw
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499116778
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

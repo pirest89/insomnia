@@ -1,0 +1,22 @@
+_id: req_a6bf6e7c9bf949acb015d72253bd0b2b
+type: Request
+parentId: fld_11a8ad272b6843c3a41e6a5d3c351182
+modified: 1652499861653
+created: 1652499715908
+url: "{{ _['api-host']
+  }}/unicorn/inventory-service/inventories/sync-elastic?page=10000&size=1000"
+name: inventory - sync elastic
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1652499715908
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

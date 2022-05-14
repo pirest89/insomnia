@@ -1,0 +1,21 @@
+_id: req_1a1603578744485a96b03ed7bef022a4
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652499116776
+created: 1652499116776
+url: http://kjur.github.io/jsrsasign/jsrsasign-latest-all-min.js
+name: Get Lib
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1652499116776
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

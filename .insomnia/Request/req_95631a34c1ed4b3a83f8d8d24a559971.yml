@@ -1,0 +1,37 @@
+_id: req_95631a34c1ed4b3a83f8d8d24a559971
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652499116765
+created: 1652499116765
+url: "{{merchant-integration-url}}/new-retail/update-fulfillment-code"
+name: MIG - Update fulfillment code
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-2
+     {
+      "delievery_order": "2100001110",
+      "fulfillment_code": "Z012"
+    }
+parameters: []
+headers:
+  - name: X-Key-Code
+    value: "{{mig-key-code}}"
+  - name: X-Nonce
+    value: "{{nonce}}"
+  - name: X-Timestamp
+    value: "{{timestamp}}"
+  - name: X-Signature
+    value: "{{mig-signature}}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499116765
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,59 @@
+_id: req_ca85d1c51e1a478aad075598d35d28d0
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652501379202
+created: 1652499116772
+url: "{{merchant-integration-url}}/qr/gen-transaction-qr"
+name: MIG - Generate qr
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"callback_url":"https://api-qc.vinid.net/qr-service/v1/health-check","description":"gen-txn-qr","extra_data":{"demo":"","order_info":"[\r\n  {\r\n    \"order_has_promotion\":
+    true,\r\n    \"order_category\": \"TICKET\",\r\n    \"order_booking_type\":
+    \"ONLINE\",\r\n    \"order_type\": \"Standard\",\r\n    \"order_sub_type\":
+    \"2D\",\r\n    \"order_code\": \"B11\",\r\n    \"order_name\":
+    \"B11\",\r\n    \"order_number\": 1,\r\n    \"order_price\":
+    \"100000\",\r\n    \"order_create_at\": 1581333173,\r\n    \"order_start\":
+    1580498400,\r\n    \"order_end\": 1580505240,\r\n    \"order_location\":
+    \"00301701\"\r\n  },\r\n  {\r\n    \"order_has_promotion\":
+    true,\r\n    \"order_category\": \"TICKET\",\r\n    \"order_booking_type\":
+    \"ONLINE\",\r\n    \"order_type\": \"Standard\",\r\n    \"order_sub_type\":
+    \"2D\",\r\n    \"order_code\": \"B12\",\r\n    \"order_name\":
+    \"B12\",\r\n    \"order_number\": 1,\r\n    \"order_price\":
+    \"120000\",\r\n    \"order_create_at\": 1581333173,\r\n    \"order_start\":
+    1580498400,\r\n    \"order_end\": 1580505240,\r\n    \"order_location\":
+    \"00301601\"\r\n  },\r\n  {\r\n    \"order_has_promotion\":
+    true,\r\n    \"order_category\": \"TICKET\",\r\n    \"order_booking_type\":
+    \"ONLINE\",\r\n    \"order_type\": \"Standard\",\r\n    \"order_sub_type\":
+    \"2D\",\r\n    \"order_code\": \"B12\",\r\n    \"order_name\":
+    \"B12\",\r\n    \"order_number\": 1,\r\n    \"order_price\":
+    \"150000\",\r\n    \"order_create_at\": 1581333173,\r\n    \"order_start\":
+    1580498400,\r\n    \"order_end\": 1580505240,\r\n    \"order_location\":
+    \"00301601\"\r\n  }\r\n]"},"order_amount":380000,"order_currency":"VND","order_reference_id":"ORDER_REF_123","pos_code":"{{pos-code}}","service_type":"PURCHASE","store_code":"{{store-code}}"}'
+parameters: []
+headers:
+  - name: X-Key-Code
+    value: "{{mig-key-code}}"
+    id: pair_52b7b77b21db4fd194f1b63b1c4bdef4
+  - name: X-Nonce
+    value: "{{nonce}}"
+    id: pair_1d6f58852f3745a8abd4edcd59b81a22
+  - name: X-Timestamp
+    value: "{{timestamp}}"
+    id: pair_6199c7edea5740ecb2ab86ce14842538
+  - name: X-Signature
+    value: "{{mig-signature}}"
+    id: pair_215f7aec9f054be59788dbc3dc48f2ec
+  - name: Content-Type
+    value: application/json
+    id: pair_ef164eb2ca1d4b058cf5375cddea1fe8
+authentication: {}
+metaSortKey: -1652499116772
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,51 @@
+_id: req_6a230e0bb5a14572a0194beb04ca8d02
+type: Request
+parentId: fld_11a8ad272b6843c3a41e6a5d3c351182
+modified: 1652499346182
+created: 1652499346182
+url: "{{account-url}}/accounts"
+name: account-login
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "code": "*****",
+      "user_name": "YD10894",
+      "user_id": "f70ea1d3-e212-4fba-bf4f-b7aaf061f3e9",
+      "full_name": "Ngọc Anh Trần",
+      "gender": "female",
+      "mobile": "0977389002",
+      "birthday": "2015-10-22T17:00:00Z",
+      "country_id": 233,
+      "country": "VIET NAM",
+      "city_id": 1,
+      "city": "TP. Hà Nội",
+      "district_id": 1,
+      "district": "Quận Thanh Xuân",
+      "address": "Bùi xương trạch, thanh xuân",
+      "status": "active",
+      "is_shipper": null,
+      "is_employee": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: Cookie
+    value: JSESSIONID=DC8C5EE5025DDFD162F00F4FBD65B10E;
+      OAuth_Token_Request_State=4c6ed7f0-330a-4746-be55-e3e6afc9f56f
+authentication:
+  type: basic
+  disabled: false
+  username: account-service-username
+  password: account-service-password
+metaSortKey: -1652499346182
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

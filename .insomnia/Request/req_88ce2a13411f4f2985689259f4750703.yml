@@ -1,0 +1,25 @@
+_id: req_88ce2a13411f4f2985689259f4750703
+type: Request
+parentId: fld_11a8ad272b6843c3a41e6a5d3c351182
+modified: 1652499346185
+created: 1652499346185
+url: "{{cloud-config-url}}/cfg_product_service/default"
+name: m-get-cloud-config
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: basic
+  disabled: false
+  username: internal
+  password: 464b55c730665ce3
+metaSortKey: -1652499346185
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

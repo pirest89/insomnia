@@ -1,0 +1,32 @@
+_id: req_e93aaa73d3324ab69ddf6ee3b3975992
+type: Request
+parentId: fld_bb04259ddf3f4ebdbc504b19552b801f
+modified: 1652499116770
+created: 1652499116770
+url: "{{merchant-integration-url}}/loyalty/gift-code/orders?store_code=CucBK&po\
+  s_code=pos2602cucbk&merchant_order_id=UBOX-1589946540005"
+name: MIG - Get gift code
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: X-Key-Code
+    value: "{{mig-key-code}}"
+  - name: X-Nonce
+    value: "{{nonce}}"
+  - name: X-Timestamp
+    value: "{{timestamp}}"
+  - name: X-Signature
+    value: "{{mig-signature}}"
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499116770
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

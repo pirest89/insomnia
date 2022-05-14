@@ -1,0 +1,23 @@
+_id: req_1d4767e0b9c943c09abc02ce86bd9f4a
+type: Request
+parentId: fld_11a8ad272b6843c3a41e6a5d3c351182
+modified: 1652499346184
+created: 1652499346184
+url: https://graph.nhanh.vn/api/bill/imexs?apiUsername=Yody&checksum=d3f612631ca8a8d585767b06a830c234&data={"fromDate":"2021-05-12","toDate":"2021-05-12","fromDepotId":1512}
+name: nhanh-get-list-product
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Cookie
+    value: htokjueamk=2vko2pekb250sda9pofa0tbkhr; lang=vi; locale=vi_VN; uiId=4
+authentication: {}
+metaSortKey: -1652499346184
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

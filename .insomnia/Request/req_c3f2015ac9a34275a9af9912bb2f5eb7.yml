@@ -1,0 +1,36 @@
+_id: req_c3f2015ac9a34275a9af9912bb2f5eb7
+type: Request
+parentId: fld_59172b9714224f0eaa35770f1738378c
+modified: 1652499116785
+created: 1652499116785
+url: "{{loy-url}}/v1/gift-cards/quantity"
+name: LOY - Check quantity
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "merchant_code": "UBOX",
+        "merchant_id": "UBOX",
+        "terminal_id": "1234",
+        "card_type": [
+            "50000",
+            "100000"
+        ]
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: Basic bG95YWx0eV9naWZ0Y29kZS5pbnRlcm5hbDowY0dRc2FwWTVQbjdMMmtn
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1652499116785
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
